@@ -28,7 +28,7 @@ void printList(node *head)
         }
     }
 }
-
+//to create a new list or add a node in the front of the list
 node *addFront(node *head, int data)
 {
     node *temp = (node *)malloc(sizeof(node));
@@ -49,7 +49,7 @@ node *addFront(node *head, int data)
     }
     return head;
 }
-
+//to sum first and last node  and add the result as a new node in the last of the list
 node *add(node *head)
 {
     node *iter = head;
